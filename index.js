@@ -55,6 +55,6 @@ function getFieldSet(context, asts = context.fieldASTs || context.fieldNodes) {
     }, {});
 }
 
-module.exports = function getFieldList(context) {
+export const getFieldList = (context) => {
     return Object.keys(getFieldSet(context));
 };
