@@ -1,3 +1,3 @@
 declare module 'graphql-list-fields' {
-  export const getFieldNames: (info: unknown) => string[];
+  export const getFieldList: (info: unknown) => string[];
 }
